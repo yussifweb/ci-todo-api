@@ -16,6 +16,5 @@ class Todos extends BaseController
         // $code = $respond->getStatusCode();
         // $data = $respond->getResponseBody();
         return $this->respond($data);
-
     }
 }
